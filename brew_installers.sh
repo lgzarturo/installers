@@ -11,7 +11,7 @@ brew install geoip
 brew install watch
 brew install ripgrep
 brew install youtube-dl
-brew install macvim --env-std --with-override-system-vim
+brew install macvim --env-std
 brew install neovim
 brew install speedtest-cli
 brew install fzf
@@ -100,8 +100,8 @@ brew install resolveip
 brew install liquibase@3.5.3
 
 # Server http
-brew install nghttp2
-brew install nginx
+# brew install nghttp2
+# brew install nginx
 
 # PDF
 brew install pdftk-java
@@ -158,8 +158,8 @@ brew install sqlite-utils
 brew install sqlmap
 
 # Mongo
-brew tap mongodb/brew
-brew install mongodb-community@4.2
+# brew tap mongodb/brew
+# brew install mongodb-community@4.2
 
 # Audio
 brew install opus
@@ -173,20 +173,20 @@ brew install swagger2markup-cli
 brew install swagger-codegen@2
 
 # Node
-brew install node
+# brew install node
 brew install yarn
 
 # Fonts
-brew tap homebrew/cask-fonts
-brew tap caskroom/fonts
-brew cask install font-fantasque-sans-mono
-brew cask install font-fira-code
-brew cask install font-fira-mono
-brew cask install font-fira-mono-for-powerline
-brew cask install font-fira-sans
-brew cask install font-hack-nerd-font
-brew cask install font-source-code-pro
-brew install graphite2
+# brew tap homebrew/cask-fonts
+# brew tap caskroom/fonts
+# brew cask install font-fantasque-sans-mono
+# brew cask install font-fira-code
+# brew cask install font-fira-mono
+# brew cask install font-fira-mono-for-powerline
+# brew cask install font-fira-sans
+# brew cask install font-hack-nerd-font
+# brew cask install font-source-code-pro
+# brew install graphite2
 
 # ZSH
 brew install zsh
@@ -219,10 +219,12 @@ brew install gitmoji
 brew install kubectx
 brew install kubernetes-cli
 brew install krew
+kubectl krew install ctx
+kubectl krew install ns
 
 # Kibana
-brew install kibana@6
-brew install elasticsearch@6
+# brew install kibana@6
+# brew install elasticsearch@6
 
 # Php
 brew install php
@@ -251,39 +253,39 @@ brew install awscli
 brew install s3cmd
 
 # Mysql
-brew install mysql-client@5.7
-brew install mysql@5.7
+# brew install mysql-client@5.7
+# brew install mysql@5.7
 
 # GUI Applications
 brew install --cask ksdiff
 brew install --cask kdiff3
-brew install --cask stats
-brew install --cask menubar-stats
+# brew install --cask stats
+# brew install --cask menubar-stats
 brew install --cask alfred
-brew install --cask redis
-brew install --cask cmake
-brew install --cask ytmdesktop-youtube-music
-brew install --cask knock
-brew install --cask 1password
+# brew install --cask redis
+# brew install --cask cmake
+# brew install --cask ytmdesktop-youtube-music
+# brew install --cask knock
+# brew install --cask 1password
 brew install --cask 1password-cli
 brew cask install obs
 brew cask install discord
 brew cask install slack
-brew cask install spotify
+# brew cask install spotify
 brew cask install visual-studio-code
-brew cask install postman
-brew cask install docker
-brew install dive
+# brew cask install postman
+# brew cask install docker
+# brew install dive
 brew cask install google-chrome
 brew cask install brave-browser
-brew cask install firefox
-brew cask install balenaetcher
+# brew cask install firefox
+# brew cask install balenaetcher
 brew cask install ngrok
 brew cask install ranger
-brew cask install lastpass
+# brew cask install lastpass
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install alacritty
-brew cask install iterm2
+# brew cask install iterm2
 brew cask install qlmarkdown
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
