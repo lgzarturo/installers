@@ -268,24 +268,24 @@ brew install --cask alfred
 # brew install --cask knock
 # brew install --cask 1password
 brew install --cask 1password-cli
-brew cask install obs
-brew cask install discord
-brew cask install slack
+# brew cask install obs
+# brew cask install discord
+# brew cask install slack
 # brew cask install spotify
-brew cask install visual-studio-code
+brew install visual-studio-code
 # brew cask install postman
 # brew cask install docker
 # brew install dive
-brew cask install google-chrome
-brew cask install brave-browser
+brew install google-chrome
+brew install brave-browser
 # brew cask install firefox
 # brew cask install balenaetcher
-brew cask install ngrok
-brew cask install ranger
+brew install ngrok
+brew install ranger
 # brew cask install lastpass
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install alacritty
 # brew cask install iterm2
-brew cask install qlmarkdown
+brew install qlmarkdown
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
